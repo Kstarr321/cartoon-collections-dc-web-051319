@@ -22,4 +22,5 @@ end
 def find_the_cheese(arr)
   arr.find do |type|
     type == "gouda"||type == "cheddar"||type == "camembert" 
+  end
 end
